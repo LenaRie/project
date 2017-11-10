@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>About us</title>
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+  <div class="topnav" id="myTopnav">
+    <a id=ol href="index.html" >Home</a>
+    <a id=ol href="pageainara.html" class="active">About Us</a>
+    <a id=ol href="page3.html">Experiences</a>
+    <a id=ol href="pagemaria.html">Advice</a>
+    <a id=ol href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+  </div>
+  <script>
+  function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+          x.className += " responsive";
+      } else {
+          x.className = "topnav";
+      }
+  }
+  </script>
+<h1>About us</h1>
+<p>We are a group of exchange students living here in Ireland.
+We are going to stay until Christmas and are studying at Cabinteely Community School.</p>
+
+<table  width="100%">
+  <tr>
+    <td>
+ <div class="container">
+        <img src="pictures/nina12.png" alt="Avatar" class="image">
+        <div class="overlay">
+          <div class="text"><h4 id=text0>Lucrezia, Italy </h4></div>
+        </div>
+      <td>
+        <div class="container">
+          <img src="pictures/nino01.png" alt="Avatar" class="image">
+          <div class="overlay">
+            <div class="text"><h3 id=text1>Sabri, Belgium</h3></div>
+          </div>
+        </div>
+      </td>
+      <td>
+        <div class="container">
+          <img src="pictures/nino02.png" alt="Avatar" class="image">
+          <div class="overlay">
+            <div class="text"><h2 id=text2>Roberto, Italy</h2></div>
+          </div>
+        </div>
+      </td>
+    </tr>
+    <tr>
+    </tr>
+  </table>
+</body>
+</html>

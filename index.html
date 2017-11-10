@@ -1,0 +1,154 @@
+<<<<<<< HEAD
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Student exchanges</title>
+  <link rel="stylesheet" type="text/CSS" href="CSS/styles.CSS">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script>
+  $(document).ready(function(){
+      $("#flip").click(function(){
+          $("#panel").slideToggle("slow");
+      });
+  });
+  </script>
+</head>
+<body>
+  <div class="topnav" id="myTopnav">
+    <a id=ol href="index.html" class="active">Home</a>
+    <a id=ol href="pageainara.html">About Us</a>
+    <a id=ol href="page3.html">Experiences</a>
+    <a id=ol href="pagemaria.html">Advice</a>
+    <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+  </div>
+
+
+
+  <script>
+  function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+          x.className += " responsive";
+      } else {
+          x.className = "topnav";
+      }
+  }
+  </script>
+  <body style="background-color:white;">
+  <h1>LIVING IN DUBLIN </h1>
+  <h2> ...As an exchange student</h2>
+  <p><img id=first src="pictures/dublinhome.jpg" alt="picture of earth"></p>
+  <p class="ex1"> <q>Nobody can discover the world for somebody else. Only when we discover it for ourselves does it become common ground and a common bond and we cease to be alone. </q> </p>
+  <p class="ex2"> - Wendell Berry</p>
+<div class="sansserif">
+
+  <p>About Dublin</p>
+  <ul class="a">
+    <li>Dublin is the capital city of Ireland</li>
+    <li>The Greater Dublin Area has a population of 1.66 million people</li>
+    <li>The city covers a land area of 115 square kilometres</li>
+    <li>Dublin has the youngest population in all of Europe</li>
+  </ul>
+  <img id="map" src="pictures/map.png" alt="map of dublin">
+ </div>
+<p>  </p>
+ <p> Contact Us!<p>
+   <a href="https://www.instagram.com/exangestudentsdublin/" target="_blank"><img id="insta" src=pictures/instagram.jpg alt=instagram></a>
+
+
+</body>
+</html>
+=======
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Student exchanges</title>
+  <link rel="stylesheet" type="text/CSS" href="CSS/styles.CSS">
+  <style>
+body {margin:0;}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+
+}
+
+</style>
+</head>
+<body>
+  <div class="topnav" id="myTopnav">
+    <a href="#home" class="active">Home</a>
+    <a href="page2.html">News</a>
+    <a href="#contact">Contact</a>
+    <a href="#about">About</a>
+    <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+  </div>
+
+
+
+  <script>
+  function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+          x.className += " responsive";
+      } else {
+          x.className = "topnav";
+      }
+  }
+  </script>
+  <body style="background-color:white;">
+  <h1>LIVING IN DUBLIN </h1>
+  <h2> ...As an exchange student</h2>
+  <p><a href="page2.html"><img id=first src="pictures/dublinhome.jpg" alt="picture of earth"></a></p>
+  <p> A paragraph of text.</p>
+  <p> This is <strong>bold text</strong> and this will be <em> itallic text</em>.</p>
+</body>
+</html>
+<p style="font-size:36px;";">I am red</p>
+>>>>>>> origin/master
